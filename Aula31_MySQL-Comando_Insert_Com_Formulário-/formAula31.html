@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulário Aula 31 </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            br {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="f_cadProd" method="post" action="../Aula31_MySQL-Comando_Insert_Com_Formulário-.php">
+
+            <label>Código:</label><br/>
+            <input type="text" name="f_cod" size="40" maxlength="30"/><br/>
+            <label>Produto:</label><br/>
+            <input type="text" name="f_prod" size="60" maxlength="50"/><br/>
+            <label>Preço:</label><br/>
+            <input type="text" name="f_preco" size="10"/><br/>
+            <label>Quantidade:</label><br/>
+            <input type="text" name="f_qtde" size="10"/><br/>
+            <label>Categoria</label><br/>
+            <input type="text" name="f_cat" size="2"/><br/>
+
+            <input type="submit" value="Gravar"/>
+            <input type="reset" value="Limpar"/>
+
+        </form>
+    </body>
+</html>
